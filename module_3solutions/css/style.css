@@ -1,1 +1,85 @@
+*{
+	box-sizing: border-box;
+}
+.navbar{
+	border-bottom: 3px solid black;
+	border-top:3px solid black;
+	background-color: #808080;
+}
 
+
+.navbar-brand a{
+	color:black;
+	text-decoration: none;
+}
+.container{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.navbar-toggler{
+	border:3px solid black;
+}
+.navbar-toggler-icon{
+	font-size: 1.3em;
+}
+@media (max-width:282px){
+	.navbar-toggler{
+		border:1px solid black;
+	}
+	.navbar-toggler-icon{
+		font-size: 1.25rem;
+	}
+}
+@media (max-width:269px)
+{
+	h1{
+		font-size: 2.0rem;
+	}
+	.navbar-toggler-icon{
+		height:1em;
+		width: 1em;
+	}
+}
+@media (max-width:226px){
+	h1{
+		font-size:.8em;
+	}
+	.navbar-toggler-icon{
+		height:.5em;
+		width:.5em;
+	}
+}
+.container{
+	max-width: 1400px;
+}
+.ourmenu{
+	text-align: center;
+	margin-top: 15px;
+}
+#contain{
+	margin-left: auto;
+	padding-left:15px;
+
+}
+.chick{
+	width:100%;
+	overflow: auto;
+	background-color: #808080;
+	margin-bottom:25px;
+}
+.chick div{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-top: 2px;
+}
+.chick p{
+	padding:10px;
+}
+.chick a{
+	text-decoration: none;
+	color:red;
+}
+.chick a:hover{
+	color:maroon;
+}
